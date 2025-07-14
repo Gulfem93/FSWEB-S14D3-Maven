@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: MainTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.031 s <<< FAILURE! - in MainTest
+testAccelerate  Time elapsed: 0.132 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Car: the car is accelerating> but was: <the car is accelerating>
+	at MainTest.testAccelerate(MainTest.java:85)
+
+testBrake  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Car"
+     but: was ""
+	at MainTest.testBrake(MainTest.java:96)
+
+testStartEngineMethod  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Car: the car's engine is starting> but was: <the car's engine is starting>
+	at MainTest.testStartEngineMethod(MainTest.java:75)
+
